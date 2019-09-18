@@ -46,13 +46,7 @@
 
 7. 运行这个project，可以直接单击右上角![](https://cloud.githubusercontent.com/assets/9759891/19218518/958ea0b4-8e2e-11e6-93ac-c34b8ad44cf0.png)中的绿色三角形符号，或者也可以从菜单栏中依次单击`Run` -> `Run...`
 
-   在今后的学习中，你的项目会越来越复杂，会有很多个java文件互相配合，那么哪个文件是你整个项目的入口呢？或者说，你想要直接运行哪个java程序呢？之前在`atom`里，我们运行的是当前窗口打开的这个文件，在IntelliJ中呢？
-
-   事实上，在java项目中，IntelliJ会自动找到所有定义了`public static void` 的` main`方法的`public class`，如Step 6中自动生成的`Main.java`中的`public class Main`。如果你的项目中恰好有多个这样的`public class`，很可能就会列出所有这些类，并让你选择运行哪一个。像Step 7中图这样，是默认运行`Main`这个类；同样的，如果你有多个符合条件可运行的类，单击图中向下的三角形，你可以选择你想运行的类。
-
-   所以你在这个project中最直接调用的java文件不一定要叫`Main`（比如project自动生成的这个），只要你想调用的文件中有`public static void` 的` main`方法就好了。
-
-   当然，还有一种运行指定的文件的方法，就是在左边的文件浏览一栏中，选中你想运行的文件，右键并选择`Run`。
+  
 
 ️
 8.intellj学习视频（大家有选择性的看就好）
@@ -66,17 +60,27 @@
 ## 2. 控制台输入输出介绍
 
 上节课我们利用System.out.println("Hello world")向控制台输出了Hello world。这节课我们将学习控制台输入。
+
 lab1_1.java 是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
+
 ```Scanner scanner = new Scanner(System.in); ``` 这行代码构造了一个Scanner类的对象，并且与标准输入流System.in关联（即控制台输出） 
+
 ```String str =  scanner.nextLine(); ```这行代码读入控制台输入的一整行，并将其赋值给字符串类型的str变量
+
 ```System.out.println("输入字符串为" + str);```这行代码同时输出了输入提示以及用户输入的字符串
+
 ```int number = scanner.nextInt();```这行代码读入控制台输入的一个整数，并将其赋值给整数类型的number变量
+
 ```System.out.println("输入整数为" + number);```这行代码同时输出了输入提示以及用户输入的整数
 
 ## 3. java中的加、减、乘、除、求模运算
+
 lab1_2.java 是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
+
 在代码中，我们先是定义三个整数变量number1，number2，number3，并将他们的值分别赋为10，20，30.
+
 接着我们输出了他们之间简单的数学运算的结果，通过对比答案，相信大家不难看出```+，-，*，/，%```五个符号的含义
+
 （注意```/```求的是整数部分）
 
 ## 任务一
