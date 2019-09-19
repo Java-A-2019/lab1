@@ -5,7 +5,7 @@
 > 1. 熟悉IntelliJ的使用，并用IntelliJ完成本次lab的编程任务
 > 2. 学习从控制台读入数据并输出
 > 3. 学习java中的加、减、乘、除、求模运算，并实现一个简单的求取数字和的程序
-> 4. 学有余力的同学可以自行尝试完成计算计算三角形的面积的程序
+> 4. 学有余力的同学可以自行尝试完成计算三角形的面积的程序
 
 ## 获取及提交lab
 
@@ -58,11 +58,11 @@
 
 ## 2. 控制台输入输出介绍
 
-上节课我们利用```System.out.println("Hello world")```向控制台输出了Hello world。这节课我们将学习控制台输入。
+上节课我们利用```System.out.println("Hello world");```向控制台输出了Hello world。这节课我们将学习控制台输入。
 
 ```lab1_1.java ```是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
 
-```Scanner scanner = new Scanner(System.in); ``` 这行代码构造了一个Scanner类的对象，并且与标准输入流System.in关联（即控制台输出） 
+```Scanner scanner = new Scanner(System.in); ``` 这行代码构造了一个Scanner类的对象，并且与标准输入流System.in关联（即控制台输入） 
 
 ```String str =  scanner.nextLine(); ```这行代码读入控制台输入的一整行，并将其赋值给字符串类型的str变量
 
