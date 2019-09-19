@@ -5,6 +5,7 @@
 > 1. 熟悉IntelliJ的使用，并用IntelliJ完成本次lab的编程任务
 > 2. 学习从控制台读入数据并输出
 > 3. 学习java中的加、减、乘、除、求模运算，并实现一个简单的求取数字和的程序
+> 4. 学有余力的同学可以自行尝试完成计算计算三角形的面积的程序
 
 ## 获取及提交lab
 
@@ -47,21 +48,19 @@
 7. 运行这个project，可以直接单击右上角![](https://cloud.githubusercontent.com/assets/9759891/19218518/958ea0b4-8e2e-11e6-93ac-c34b8ad44cf0.png)中的绿色三角形符号，或者也可以从菜单栏中依次单击`Run` -> `Run...`
 
   
-
-️
-8.intellj学习视频（大家有选择性的看就好）
-1. https://www.bilibili.com/video/av38215742/?p=1  intellj的介绍
-2. https://www.bilibili.com/video/av38215742/?p=3  intellj的安装
-3. https://www.bilibili.com/video/av38215742/?p=4  intellj的配置（更改Intellj字体大小，主题风格）
-4. https://www.bilibili.com/video/av38215742/?p=5  创建普通的java程序
-5. https://www.bilibili.com/video/av38215742/?p=6  快捷键的使用（想写代码走捷径的同学必看）
-6. https://www.bilibili.com/video/av38215742/?p=7  代码模板的使用（如果快捷键仍不满足你的同学可以看）
+8. intellJ学习视频（大家有选择性的看就好）
+- https://www.bilibili.com/video/av38215742/?p=1  intellj的介绍
+- https://www.bilibili.com/video/av38215742/?p=3  intellj的安装
+- https://www.bilibili.com/video/av38215742/?p=4  intellj的配置（更改Intellj字体大小，主题风格）
+- https://www.bilibili.com/video/av38215742/?p=5  创建普通的java程序
+- https://www.bilibili.com/video/av38215742/?p=6  快捷键的使用（想写代码走捷径的同学必看）
+- https://www.bilibili.com/video/av38215742/?p=7  代码模板的使用（如果快捷键仍不满足你的同学可以看）
 
 ## 2. 控制台输入输出介绍
 
-上节课我们利用System.out.println("Hello world")向控制台输出了Hello world。这节课我们将学习控制台输入。
+上节课我们利用```System.out.println("Hello world")```向控制台输出了Hello world。这节课我们将学习控制台输入。
 
-lab1_1.java 是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
+```lab1_1.java ```是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
 
 ```Scanner scanner = new Scanner(System.in); ``` 这行代码构造了一个Scanner类的对象，并且与标准输入流System.in关联（即控制台输出） 
 
@@ -75,7 +74,7 @@ lab1_1.java 是助教已经写好的代码，大家可以一边查看助教写�
 
 ## 3. java中的加、减、乘、除、求模运算
 
-lab1_2.java 是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
+```lab1_2.java``` 是助教已经写好的代码，大家可以一边查看助教写好的代码一边看此文档进行学习。
 
 在代码中，我们先是定义三个整数变量number1，number2，number3，并将他们的值分别赋为10，20，30.
 
@@ -101,4 +100,21 @@ lab1_2.java 是助教已经写好的代码，大家可以一边查看助教写�
 1. 使用Scanner来读取整数
 
 2. 合理使用```%```和```/```等运算符
+
+## 思考题
+计算三角形的面积（做了不加分，仅供学有余力的同学学习思考）
+
+### 问题描述
+
+1. 从控制台读入三个整数```a```、```b```、```c```，分别代表三角形三条边的长度
+
+2. 计算后直接打印出此三角形的面积
+
+3. 不必考虑三条边长度不满足构成一个三角形的情况（即```a```、```b```、```c```总是合法的）
+
+
+### 提示
+1. 可利用**海伦公式**来计算三角形面积，可利用搜索引擎来了解其内容
+
+
 
