@@ -15,6 +15,8 @@
 
 **提交物**：本次lab只需提交`lab1_3.java` 
 
+**截止时间**：2019年9月22日 23：59：59
+
 ## 1.使用IntelliJ
 
 > **IntelliJ IDEA**被认为是当前Java开发效率最快的IDE工具。它是一种商业化销售的[Java](https://zh.wikipedia.org/wiki/Java)[集成开发环境](https://zh.wikipedia.org/wiki/%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)（Integrated Development Environment，IDE）工具[软件](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6)，由[捷克](https://zh.wikipedia.org/wiki/%E6%8D%B7%E5%85%8B)软件公司[JetBrains](https://zh.wikipedia.org/wiki/JetBrains%E5%85%AC%E5%8F%B8)在2001年1月时推出最初版。
